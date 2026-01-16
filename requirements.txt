@@ -1,0 +1,8 @@
+e2b-code-interpreter==2.2.0
+openai==2.4.0
+python-dotenv>=1.1.1
+jupyter>=1.1.1
+jupyter-ai>=3.0.0b9,<3.1
+# Pin working versions to avoid aiosqlite/langgraph compatibility issues
+aiosqlite==0.21.0
+langgraph-checkpoint-sqlite==3.0.0
